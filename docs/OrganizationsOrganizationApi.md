@@ -91,8 +91,9 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | organization found |  -  |
 **404** | organization not found |  -  |
-**401** | Invalid subject |  -  |
+**401** | Invalid responses - invalid subject, Authentication failed |  -  |
 **403** | Invalid scope |  -  |
+**400** | Malformed Authentication Header |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -184,8 +185,8 @@ Name | Type | Description  | Notes
 |-------------|-------------|------------------|
 **200** | organization found |  -  |
 **404** | organization not found |  -  |
-**400** | invalid organization name length |  -  |
-**401** | Invalid subject |  -  |
+**400** | Invalid responses - malformed authentication header, invalid organization name length |  -  |
+**401** | Invalid responses - invalid subject, authentication failed |  -  |
 **403** | Invalid scope |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
