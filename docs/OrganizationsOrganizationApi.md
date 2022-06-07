@@ -90,10 +90,9 @@ Name | Type | Description  | Notes
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | organization found |  -  |
-**404** | organization not found |  -  |
+**400** | Invalid requests - Malformed Authentication Header |  -  |
 **401** | Unauthorized - Authentication failed, invalid subject |  -  |
 **403** | Invalid scope |  -  |
-**400** | Invalid requests - Malformed Authentication Header |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -184,7 +183,6 @@ Name | Type | Description  | Notes
 | Status code | Description | Response headers |
 |-------------|-------------|------------------|
 **200** | organization found |  -  |
-**404** | organization not found |  -  |
 **400** | Invalid requests - malformed authentication header, invalid organization name length |  -  |
 **401** | Unauthorized - Authentication failed, invalid subject |  -  |
 **403** | Invalid scope |  -  |
