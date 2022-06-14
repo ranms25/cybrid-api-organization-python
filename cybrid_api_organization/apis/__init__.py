@@ -6,7 +6,7 @@
 # raise a `RecursionError`.
 # In order to avoid this, import only the API that you directly need like:
 #
-#   from .api.organizations_organization_api import OrganizationsOrganizationApi
+#   from cybrid_api_organization.api.organizations_organization_api import OrganizationsOrganizationApi
 #
 # or import this package, but before doing it, use:
 #
