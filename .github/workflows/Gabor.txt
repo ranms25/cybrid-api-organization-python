@@ -1,0 +1,13 @@
+Hi Gabor,
+
+How are you?
+
+After many efforts, I was able to find a project that github action will do well and I believe it will help.
+I would appreciate your approval before sending to PR.
+
+This is content that I think is important to attach to the aforementioned PR:
+
+This YAML file sets up continuous integration for your project, allowing for automated testing and deployment. 
+The code is automatically checked whenever there is a push, pull request, or manual trigger. 
+This ensures that your code is always tested on a variety of operating systems and Python versions, giving you confidence that your code is functioning properly.
+This will save time and effort in the long run and help identify and fix bugs quickly and efficiently.
